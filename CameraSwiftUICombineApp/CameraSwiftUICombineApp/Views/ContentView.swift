@@ -9,12 +9,8 @@ import SwiftUI
 
 struct ContentView: View {
   var body: some View {
-    ZStack {
-      Color.black.edgesIgnoringSafeArea(.all)
-
-      Text("Filter the World!")
-        .foregroundColor(.white)
-    }
+      FrameView(image: nil)
+        .edgesIgnoringSafeArea(.all)
   }
 }
 

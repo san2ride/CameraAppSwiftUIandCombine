@@ -17,6 +17,7 @@
 		F76D107A27E5041700168742 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76D107927E5041700168742 /* ErrorView.swift */; };
 		F76D107C27E5043E00168742 /* ToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76D107B27E5043E00168742 /* ToggleButton.swift */; };
 		F76D108027E507BE00168742 /* FrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76D107F27E507BE00168742 /* FrameView.swift */; };
+		F773D31527E8F17900734481 /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F773D31427E8F17900734481 /* CameraManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		F76D107927E5041700168742 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
 		F76D107B27E5043E00168742 /* ToggleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleButton.swift; sourceTree = "<group>"; };
 		F76D107F27E507BE00168742 /* FrameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameView.swift; sourceTree = "<group>"; };
+		F773D31427E8F17900734481 /* CameraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 		F76D106F27E5012400168742 /* Camera */ = {
 			isa = PBXGroup;
 			children = (
+				F773D31427E8F17900734481 /* CameraManager.swift */,
 				F76D107327E5034000168742 /* CameraError.swift */,
 			);
 			path = Camera;
@@ -194,6 +197,7 @@
 				F76D106227E4FD2A00168742 /* CameraSwiftUICombineAppApp.swift in Sources */,
 				F76D107427E5034000168742 /* CameraError.swift in Sources */,
 				F76D107627E5039E00168742 /* CGImageExtension.swift in Sources */,
+				F773D31527E8F17900734481 /* CameraManager.swift in Sources */,
 				F76D107827E503F100168742 /* ControlView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -328,6 +332,7 @@
 				DEVELOPMENT_TEAM = 4C3PFF6YUX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "This app needs the camera to filter the world";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -357,6 +362,7 @@
 				DEVELOPMENT_TEAM = 4C3PFF6YUX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "This app needs the camera to filter the world";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

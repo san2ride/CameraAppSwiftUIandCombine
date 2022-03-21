@@ -8,14 +8,17 @@
 import SwiftUI
 
 struct ContentView: View {
-  var body: some View {
-      FrameView(image: nil)
-        .edgesIgnoringSafeArea(.all)
-  }
+    
+    @StateObject private var model = ContentViewModel()
+    
+    var body: some View {
+        FrameView(image: model.frame)
+            .edgesIgnoringSafeArea(.all)
+    }
 }
 
 struct ContentView_Previews: PreviewProvider {
-  static var previews: some View {
-    ContentView()
-  }
+    static var previews: some View {
+        ContentView()
+    }
 }

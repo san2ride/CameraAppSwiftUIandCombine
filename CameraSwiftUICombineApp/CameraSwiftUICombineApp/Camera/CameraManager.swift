@@ -34,9 +34,22 @@ class CameraManager: ObservableObject {
         configure()
     }
     
+    func set(
+      _ delegate: AVCaptureVideoDataOutputSampleBufferDelegate,
+      queue: DispatchQueue
+    ) {
+      sessionQueue.async {
+        self.videoOutput.setSampleBufferDelegate(delegate, queue: queue)
+      }
+    }
     
     // 5
     private func configure() {
+        checkPermissions()
+        sessionQueue.async {
+          self.configureCaptureSession()
+          self.session.startRunning()
+        }
     }
     
     private func set(error: CameraError?) {

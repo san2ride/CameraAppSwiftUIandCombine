@@ -18,6 +18,8 @@
 		F76D107C27E5043E00168742 /* ToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76D107B27E5043E00168742 /* ToggleButton.swift */; };
 		F76D108027E507BE00168742 /* FrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76D107F27E507BE00168742 /* FrameView.swift */; };
 		F773D31527E8F17900734481 /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F773D31427E8F17900734481 /* CameraManager.swift */; };
+		F773D31727E903B300734481 /* FrameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F773D31627E903B300734481 /* FrameManager.swift */; };
+		F773D31927E9071300734481 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F773D31827E9071300734481 /* ContentViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,8 @@
 		F76D107B27E5043E00168742 /* ToggleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleButton.swift; sourceTree = "<group>"; };
 		F76D107F27E507BE00168742 /* FrameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameView.swift; sourceTree = "<group>"; };
 		F773D31427E8F17900734481 /* CameraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraManager.swift; sourceTree = "<group>"; };
+		F773D31627E903B300734481 /* FrameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameManager.swift; sourceTree = "<group>"; };
+		F773D31827E9071300734481 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +93,7 @@
 			children = (
 				F773D31427E8F17900734481 /* CameraManager.swift */,
 				F76D107327E5034000168742 /* CameraError.swift */,
+				F773D31627E903B300734481 /* FrameManager.swift */,
 			);
 			path = Camera;
 			sourceTree = "<group>";
@@ -104,6 +109,7 @@
 		F76D107127E5015100168742 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				F773D31827E9071300734481 /* ContentViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -195,7 +201,9 @@
 				F76D106427E4FD2A00168742 /* ContentView.swift in Sources */,
 				F76D107A27E5041700168742 /* ErrorView.swift in Sources */,
 				F76D106227E4FD2A00168742 /* CameraSwiftUICombineAppApp.swift in Sources */,
+				F773D31727E903B300734481 /* FrameManager.swift in Sources */,
 				F76D107427E5034000168742 /* CameraError.swift in Sources */,
+				F773D31927E9071300734481 /* ContentViewModel.swift in Sources */,
 				F76D107627E5039E00168742 /* CGImageExtension.swift in Sources */,
 				F773D31527E8F17900734481 /* CameraManager.swift in Sources */,
 				F76D107827E503F100168742 /* ControlView.swift in Sources */,
@@ -328,8 +336,8 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CameraSwiftUICombineApp/Preview Content\"";
-				DEVELOPMENT_TEAM = 4C3PFF6YUX;
+				DEVELOPMENT_ASSET_PATHS = "CameraSwiftUICombineApp/Preview Content";
+				DEVELOPMENT_TEAM = 6D9CKTK39V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCalendarsUsageDescription = "This app needs the camera to filter the world";
@@ -358,8 +366,8 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CameraSwiftUICombineApp/Preview Content\"";
-				DEVELOPMENT_TEAM = 4C3PFF6YUX;
+				DEVELOPMENT_ASSET_PATHS = "CameraSwiftUICombineApp/Preview Content";
+				DEVELOPMENT_TEAM = 6D9CKTK39V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCalendarsUsageDescription = "This app needs the camera to filter the world";
